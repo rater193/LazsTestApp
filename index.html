@@ -1,7 +1,64 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <script type="text/javascript">
+        function Redirect() {
+            location.href = "passlock.html";
+        }
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        if (getCookie("passwdHash") != "647cc762d1fba988d1b9278383bd9b172cb53e0f3fd50d57a03a5f05b196790e") {
+
+            setTimeout(function () {
+                Redirect();
+            }, 1000);
+            console.log(getCookie("passwdHash"));
+        }
+        //setTimeout(Redirect, 2500);
+    </script>
+</head>
+
 <body>
-<h1>Hello World 2</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <p>Click the following button to redirect to tutorix.com.</p>
+    <form>
+        <input type="button" value="Redirect Me" onclick="Redirect();" /><br />
+        <div id="JSData">
+
+        </div>
+        <script type="text/javascript">
+            let element = document.getElementById("JSData");
+
+            async function hashData(data) {
+                // Convert the string into a Uint8Array (required for hashing)
+                const encoder = new TextEncoder();
+                const dataUint8Array = encoder.encode(data);
+
+                // Hash the data using SHA-256
+                const hashBuffer = await crypto.subtle.digest('SHA-256', dataUint8Array);
+
+                // Convert the hash buffer into a hexadecimal string
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+                return hashHex;
+            }
+
+            // Example usage
+            hashData('Sch0olizFun!').then(hashHex => {
+                element.innerHTML = "Programatically set: " + hashHex;
+            });
+        </script>
+    </form>
 </body>
+
 </html>
