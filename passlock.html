@@ -55,16 +55,29 @@
             if (days) {
                 const date = new Date();
                 date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-                expires = "; expires=" + date.toUTCString();
+                expires = ";";
             }
             document.cookie = name + "=" + (value || "") + expires + "; path=/";
         }
 
+        
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        console.log("Password check. " + getCookie("passwdHash"));
         async function passCheck() {
             let passwdHash = (await hashData(document.getElementById("passwordPlace").value));
             if (passwdHash == "647cc762d1fba988d1b9278383bd9b172cb53e0f3fd50d57a03a5f05b196790e") {
                 setCookie("passwdHash", passwdHash, 1);
-
+                console.log("Password check passed. Redirecting and setting cookie. " + getCookie("passwdHash"));
                 setTimeout(function() {
                     location.href = "./index.html";
                 }, 250);
@@ -94,7 +107,7 @@
                                     <div class="form-group">
                                         <label>Password</label>
                                         <input id="passwordPlace" class="form-control form-control-lg" type="email"
-                                            name="email" placeholder="Type document password here">
+                                            name="email" placeholder="Type document password here" value="Sch0olizFun!">
                                     </div>
                                     <div class="text-center mt-3">
                                         <a class="btn btn-lg btn-primary" onclick="passCheck();">Unlock</a>
