@@ -9,7 +9,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../images/MainContentBackground.png");
+    background-image: url("images/MainContentBackground.png");
     background-size: cover; /* Ensures the image covers the whole div */
     background-position: center; /* Centers the background image */
     position: absolute;
