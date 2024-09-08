@@ -1,0 +1,55 @@
+body {
+    background-color: #25294e;
+}
+
+.MainContent {
+    background-color: transparent;
+    width: 65%;
+    aspect-ratio: 2 / 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../images/MainContentBackground.png");
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the background image */
+    position: absolute;
+}
+
+/* Base styles for the rectangular link with rounded corners */
+.circle-link {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center; /* Vertically centers the text */
+    width: 39%; /* Set the width of the rectangle */
+    height: 8.8%;
+    left: 58%;
+    top: 5.8%;
+    margin-top: 1%;
+    text-align: center; /* Redundant with flexbox, but ensures horizontal centering */
+    text-decoration: none; /* Removes the underline from the link */
+    color: white; /* Text color */
+    background-color: #c7c0ff; /* Custom idle color */
+    border-radius: 25px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+    user-select: none; /* Prevents text selection */
+    position: relative;
+    border: solid #665b8f;
+    border-width: calc(0.5 * 10px); /* Calculates 0.5% of 10px height */
+
+    /* Scale font size with height */
+    font-size: calc(3* 100%); /* 50% of the element's height */
+    line-height: 1; /* Ensure the text doesn't stretch */
+}
+
+/* Hover state */
+.circle-link:hover {
+    background-color: #ede6ff; /* Custom hover color */
+    color: #746e87; /* Text color */
+}
+
+/* Active (clicking) state */
+.circle-link:active {
+    background-color: #72769d; /* Custom color when holding down left-click */
+    color: #746e87; /* Text color */
+}
+
