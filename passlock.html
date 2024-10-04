@@ -158,7 +158,7 @@
         console.log("Password check. " + getCookie("passwdHash"));
         function passCheck() {
             let passwdHash = sha256(document.getElementById("passwordPlace").value);
-            if (passwdHash == "647cc762d1fba988d1b9278383bd9b172cb53e0f3fd50d57a03a5f05b196790e") {
+            if (passwdHash == "a9152be12fadececadff782d3dc16dc4c0c75dfd1d6d77af9f46ac6975d05dca") {
                 setCookie("passwdHash", passwdHash, 1);
                 console.log("Password check passed. Redirecting and setting cookie. " + getCookie("passwdHash"));
 
@@ -166,7 +166,7 @@
                     location.href = "./index.html";
                 }, 250);
             } else {
-                console.log("Incorrect password");
+                console.log("Incorrect password: " + passwdHash);
             }
         }
     </script>
