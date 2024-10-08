@@ -1,4 +1,4 @@
-const quiz = [
+const myQuestions = [
   {
     title: "Question 1 -",
     question: "LOC is an acronym for level or loss of consciousness.",
