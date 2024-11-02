@@ -165,7 +165,7 @@ const myQuestions = [
       c: "232 hours",
       d: "240 hours"
     },
-    correctAnswer: "d",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
