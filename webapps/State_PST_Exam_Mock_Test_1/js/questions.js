@@ -791,7 +791,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
