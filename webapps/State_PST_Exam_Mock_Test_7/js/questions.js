@@ -7,7 +7,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -87,7 +87,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -219,7 +219,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -233,7 +233,7 @@ const myQuestions = [
       c: "Geographical agreements",
       d: "B and C"
     },
-    correctAnswer: "d",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -393,7 +393,7 @@ const myQuestions = [
       c: "October 1st",
       d: "December 31st"
     },
-    correctAnswer: "d",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -445,7 +445,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -535,7 +535,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -823,7 +823,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -851,7 +851,7 @@ const myQuestions = [
       c: "199",
       d: "200"
     },
-    correctAnswer: "c",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -979,7 +979,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1161,7 +1161,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
