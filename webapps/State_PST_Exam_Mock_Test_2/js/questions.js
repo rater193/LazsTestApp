@@ -75,7 +75,7 @@ const myQuestions = [
       c: "State Terrorism",
       d: "International Terrorism"
     },
-    correctAnswer: "b",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -115,7 +115,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -129,7 +129,7 @@ const myQuestions = [
       c: "4 Ws – Who, What, Where, and When",
       d: "6 Ws – Where, What, Weapons, When, Who, and Why"
     },
-    correctAnswer: "b",
+    correctAnswer: "d",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -687,7 +687,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -843,7 +843,7 @@ const myQuestions = [
       c: "State",
       d: "Federal"
     },
-    correctAnswer: "d",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -869,7 +869,7 @@ const myQuestions = [
       c: "Michigan",
       d: "California"
     },
-    correctAnswer: "b",
+    correctAnswer: "d",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1015,7 +1015,7 @@ const myQuestions = [
       c: "Critical",
       d: "Immediate"
     },
-    correctAnswer: "b",
+    correctAnswer: "d",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1093,7 +1093,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1105,7 +1105,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1266,7 +1266,7 @@ const myQuestions = [
       c: "San Jose, California",
       d: "Chicago Illinois"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
