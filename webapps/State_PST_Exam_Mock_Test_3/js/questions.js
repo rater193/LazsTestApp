@@ -37,7 +37,7 @@ const myQuestions = [
       c: "Monthly",
       d: "Quarterly"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -527,7 +527,7 @@ const myQuestions = [
       c: "Music",
       d: "Transfers"
     },
-    correctAnswer: "d",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -555,7 +555,7 @@ const myQuestions = [
       c: "Personality",
       d: "Emotions"
     },
-    correctAnswer: "d",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -583,7 +583,7 @@ const myQuestions = [
       c: "Observation, containment, termination",
       d: "Fantasy, containment, termination"
     },
-    correctAnswer: "b",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -947,7 +947,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1091,7 +1091,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1127,7 +1127,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
