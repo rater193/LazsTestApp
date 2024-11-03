@@ -61,7 +61,7 @@ const myQuestions = [
       c: "Advanced Aid",
       d: "Automatic Aid"
     },
-    correctAnswer: "a",
+    correctAnswer: "d",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -73,7 +73,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -139,7 +139,7 @@ const myQuestions = [
       c: "Incident Type",
       d: "Incident Information"
     },
-    correctAnswer: "a",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -281,7 +281,7 @@ const myQuestions = [
       c: "Numbness",
       d: "Increase in substance use"
     },
-    correctAnswer: "c",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -477,7 +477,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -543,7 +543,7 @@ const myQuestions = [
       c: "Past event",
       d: "Delayed event"
     },
-    correctAnswer: "c",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -687,7 +687,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -831,7 +831,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -859,7 +859,7 @@ const myQuestions = [
       c: "Patching",
       d: "Broadcasting"
     },
-    correctAnswer: "c",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -899,7 +899,7 @@ const myQuestions = [
       c: "Telecommunicator Emergency Response Taskforce",
       d: "Trained Emergency Response Taskforce"
     },
-    correctAnswer: "a",
+    correctAnswer: "c",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -911,7 +911,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1109,7 +1109,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -1175,7 +1175,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
