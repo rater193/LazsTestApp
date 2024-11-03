@@ -371,7 +371,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -979,7 +979,7 @@ const myQuestions = [
       c: "40 hours of renewal training",
       d: "80 hours of renewal training"
     },
-    correctAnswer: "c",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
