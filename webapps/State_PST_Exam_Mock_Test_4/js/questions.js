@@ -779,7 +779,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -839,7 +839,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "b",
+    correctAnswer: "a",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
@@ -935,7 +935,7 @@ const myQuestions = [
       a: "True",
       b: "False"
     },
-    correctAnswer: "a",
+    correctAnswer: "b",
     correctAnswerText: "Correct",
     falseAnswerText: "Incorrect"
   },
