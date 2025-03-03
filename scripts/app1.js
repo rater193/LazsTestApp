@@ -111,7 +111,7 @@ function getCookie(name) {
     return null;
 }
 
-if (getCookie("passwdHash") != "a9152be12fadececadff782d3dc16dc4c0c75dfd1d6d77af9f46ac6975d05dca") {
+if (getCookie("passwdHash") != "f3d3bd9864bbf26a967066351558aeac4d39da9cf9763d1f6dba94cefe074f35") {
 
     Redirect();
     console.log(getCookie("passwdHash"));
